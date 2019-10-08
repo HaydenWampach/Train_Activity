@@ -8,7 +8,9 @@
     <title>Train Schedule</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -31,6 +33,44 @@
                     </tr>
                 </thead>
                 <tbody id="trains">
+                        <table class="table table-striped">
+                                <tbody>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Alpha</td>
+                                    <td>Portland, Or</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Beta</td>
+                                    <td>Olympia, WA</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Charlie</td>
+                                    <td>Tacoma, WA</td>
+                                    
+                                  </tr>
+                                  <th scope="row"></th>
+                                    <td>Delta</td>
+                                    <td>Spokane, WA</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Echo</td>
+                                    <td>VAncouver, BC</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <th scope="row"></th>
+                                    <td>Foxtrot</td>
+                                    <td>Bellingham, WA</td>
+                                    
+                                  </tr>
+                                </tbody>
+                              </table>
 
                 </tbody>
             </table>
@@ -51,7 +91,8 @@
                     </div>
                     <div class="form-group">
                         <label for="firstTrainTime">First Train Time (HH:mm -miltary time)</label>
-                        <input type="firstTrainTime" class="form-control" id="firstTrainTime" placeholder="First Train Time">
+                        <input type="firstTrainTime" class="form-control" id="firstTrainTime"
+                            placeholder="First Train Time">
                     </div>
                     <div class="form-group">
                         <label for="Frequency">Frequency</label>
@@ -64,11 +105,10 @@
 
 
 
-
-        <script src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
         <script src="assets/javascript/app.js"></script>
-        <link rel="stylesheet" href="assets/css/style.css">
+        
 </body>
 
 </html>

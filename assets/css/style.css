@@ -1,0 +1,13 @@
+#submit {
+    background-color: (0, 110, 255);
+    color: white;
+}
+.container {
+    border-color: (0, 110, 255);
+    border: 1px;
+}
+.jumbotron {
+    background-color: rgb(146, 54, 11);
+    color: white;
+    text-align: center;
+}
