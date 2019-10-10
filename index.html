@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
             integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+            
 
 </head>
 
 <body>
+   <!-- use bootstrap to create jumbotron-->
     <div class="container">
         <div class="jumbotron">
             <h1>Anytime is Train Time</h1>
@@ -32,6 +34,7 @@
                         <th scope="col">Minutes Away</th>
                     </tr>
                 </thead>
+                <!-- create table to hold train schedule-->
                 <tbody id="trains">
                         <table class="table table-striped">
                                 <tbody>
@@ -75,7 +78,7 @@
                 </tbody>
             </table>
         </div>
-
+        <!-- create search buttons for user-->
         <div class="row">
             <div class="col-12">
                 <h3>Add Train</h3>
@@ -83,7 +86,6 @@
                     <div class="form-group">
                         <label for="trainName">Train Name</label>
                         <input type="train" class="form-control" id="trainName" placeholder="Name">
-
                     </div>
                     <div class="form-group">
                         <label for="destination">Destination</label>
